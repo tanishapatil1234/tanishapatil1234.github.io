@@ -212,6 +212,7 @@ body, h1, h2, h3, p {
   display: flex;
   border-top: 1px solid black;
   background-color: #FFF9EE;
+  margin-left: 20px; 
 }
 
 /* Style for left container */
