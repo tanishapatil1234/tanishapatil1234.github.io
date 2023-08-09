@@ -238,8 +238,8 @@ body, h1, h2, h3, p {
 .bottom-right-image {
   width: 80%; /* Make the image slightly smaller */
   align-self: flex-start; /* Keep the x position unchanged */
-  margin-top: -90px; /* Move the image more up */
   position: relative;
+  top: -90px; /* Move the image more up */
   z-index: 0;
 }
 
