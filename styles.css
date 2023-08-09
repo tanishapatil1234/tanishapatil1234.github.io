@@ -218,8 +218,10 @@ body, h1, h2, h3, p {
 .left-container {
   flex: 2;
   padding: 20px;
+  margin-top: -50px; 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
