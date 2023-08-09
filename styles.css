@@ -229,10 +229,7 @@ body, h1, h2, h3, p {
 }
 
 .bottom-left {
-  font-family: "Times New Roman", serif;
-  font-weight: bold;
-  font-size: 130px;
-  align-self: flex-start;
+  display: none; 
 }
 
 .bottom-right-image {
@@ -289,4 +286,20 @@ body, h1, h2, h3, p {
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+.image-container {
+  position: relative;
+}
+
+.bottom-left-overlay {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  padding: 10 px; 
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; 
+  font-family: "Times New Roman", serif; 
+  font-weight: bold; 
+  font-size: 24px; 
 }
