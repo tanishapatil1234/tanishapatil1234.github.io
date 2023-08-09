@@ -235,7 +235,7 @@ body, h1, h2, h3, p {
 .bottom-right-image {
   width: 80%; /* Make the image slightly smaller */
   align-self: flex-start; /* Keep the x position unchanged */
-  margin-top: -70px; /* Move the image more up */
+  margin-top: -90px; /* Move the image more up */
   position: relative;
   z-index: 0;
 }
@@ -297,7 +297,8 @@ body, h1, h2, h3, p {
   bottom: 0; 
   left: 0; 
   padding: 10 px; 
-  color: rgb(0, 0, 0); 
+  background-color: transparent;
+  color: black; 
   font-family: "Times New Roman", serif; 
   font-weight: bold; 
   font-size: 200px; 
