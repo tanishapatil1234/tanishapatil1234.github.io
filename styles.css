@@ -313,3 +313,10 @@ body, h1, h2, h3, p {
   line-height: 1.2; 
   margin-bottom: 10px; 
 }
+
+.nav-text {
+  font-family: "Times New Roman", serif; 
+  font-style: italic; 
+  line-height: 1.2;
+  margin-left: 20px; 
+}
