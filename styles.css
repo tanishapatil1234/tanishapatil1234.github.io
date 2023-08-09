@@ -218,6 +218,9 @@ body, h1, h2, h3, p {
 .left-container {
   flex: 2;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .top-left {
@@ -229,12 +232,18 @@ body, h1, h2, h3, p {
   font-family: "Times New Roman", serif;
   font-weight: bold;
   font-size: larger;
-  margin-top: 20px;
+  margin-top: auto; /* Move text to the bottom */
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1; /* Ensure text is on top */
 }
 
 .bottom-right-image {
-  width: 100%;
-  margin-top: 20px;
+  width: 80%; /* Make the image slightly smaller */
+  align-self: flex-start; /* Keep the x position unchanged */
+  margin-top: -20px; /* Move the image more up */
+  position: relative;
+  z-index: 0;
 }
 
 /* Style for right container */
@@ -246,6 +255,13 @@ body, h1, h2, h3, p {
 .slideshow-area {
   /* Style for the slideshow area */
   /* Add your slideshow styling here */
+  /* Example style for a rectangular slideshow area */
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .spotlight-story {
@@ -260,11 +276,6 @@ body, h1, h2, h3, p {
 
 .paragraph {
   margin-top: 20px;
-}
-
-.bigger-bold {
-  font-weight: bold;
-  font-size: larger;
 }
 
 .learn-more-button {
